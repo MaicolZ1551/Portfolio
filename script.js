@@ -51,3 +51,17 @@ function project2(url) {
 }
 // Call Link
 project2("https://redcalculator741.netlify.app");
+
+
+
+//link calculator
+function project3(url) {
+  const elements = document.querySelectorAll(".project3");
+  elements.forEach(e => {
+    e.addEventListener("click", () => {
+      window.open(url, "_blank", "noopener");
+    });
+  });
+}
+// Call Link
+project3("https://qrmaker741.netlify.app");
