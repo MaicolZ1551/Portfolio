@@ -17,7 +17,7 @@
     background-color: #1b263b;
     color: white;
     width: 850px;
-    height: 140vh;
+    height: 145vh;
     border-radius: 1.5rem;
     /*margin-right: 220px;*/
 }
@@ -51,6 +51,7 @@
 
 .container {
     margin-top: 15px;
+    padding: 0px;
     gap: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -150,8 +151,8 @@
 
 .js {
     transform: translateY(-50px);
-    width: 150px;
-    height: 157px;
+    width: 100px;
+    height: auto;
     background-color: #0d1b2a;
     border-radius: 1.5rem;
     user-select: none;
@@ -159,7 +160,7 @@
 
 .csharp {
     transform: translateY(-50px);
-    width: 110px;
+    width: 60px;
     padding: 1rem;
     height: auto;
     background-color: #0d1b2a;
@@ -167,9 +168,19 @@
     user-select: none;
 }
 
+.git {
+    transform: translateY(-50px);
+    width: 65px;
+    padding: 1rem;
+    height: auto;
+    background-color: #0d1b2a;
+    border-radius: 1.5rem;
+    user-select: none;  
+}
+
 .unity{
     transform: translateY(-50px);
-    width: 113px;
+    width: 63px;
     padding: 1rem;
     height: auto;
     background-color: #0d1b2a;
@@ -179,17 +190,7 @@
 
 .github {
     transform: translateY(-50px);
-    width: 110px;
-    padding: 1rem;
-    height: auto;
-    background-color: #0d1b2a;
-    border-radius: 1.5rem;
-    user-select: none;  
-}
-
-.git {
-    transform: translateY(-50px);
-    width: 110px;
+    width: 60px;
     padding: 1rem;
     height: auto;
     background-color: #0d1b2a;
