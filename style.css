@@ -31,7 +31,7 @@
     padding: 1rem;
     background-color: #1b263b;
     color: white;
-    height: 150vh;
+    height: 177vh;
     border-radius: 1.5rem;
     flex: 2 1 700px;
     max-width: 900px;
@@ -139,6 +139,38 @@
 }
 
 .project4:hover{
+    transform: scale(1.1);
+}
+
+.project5{
+    background-color: #415A77;
+    color: #fff;
+    height: 300px;
+    width: 200px;
+    border-radius: 1.2rem;
+    flex-grow: 1;
+    flex-basis: 200;
+    max-width: 400px;
+    transition-duration: 300ms;
+}
+
+.project5:hover{
+    transform: scale(1.1);
+}
+
+.project6{
+    background-color: #415A77;
+    color: #fff;
+    height: 300px;
+    width: 200px;
+    border-radius: 1.2rem;
+    flex-grow: 1;
+    flex-basis: 200;
+    max-width: 400px;
+    transition-duration: 300ms;
+}
+
+.project6:hover{
     transform: scale(1.1);
 }
 
