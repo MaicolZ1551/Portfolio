@@ -1,42 +1,58 @@
+/*Main cotainer*/
+.container {
+    margin-top: 15px;
+    padding: 25px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container > div {
+    flex: 1;
+    }
+
+/*Contact division*/
 .contact {
     padding: 1rem;
     background-color: #1b263b;
     color: white;
-    width: 300px;
-    height: 90vh;
-    max-width: 100%;
+    height: 100vh;
+    max-width: 300px;
     border-radius: 1.5rem;
     align-items: center;
     position: sticky;
     top: 20px;
-    /*position: fixed; top: 33px; left: 50px*/
+    flex: 1 1 200px;
 }
 
+/*About me division*/
 .aboutMe {
     padding: 1rem;
     background-color: #1b263b;
     color: white;
-    width: 850px;
-    height: 145vh;
+    height: 150vh;
     border-radius: 1.5rem;
-    /*margin-right: 220px;*/
+    flex: 2 1 700px;
+    max-width: 900px;
 }
 
+/*Skills division*/
 .skills {
     padding: 1.5rem;
     background-color: #1b263b;
     color: white;
-    width: 300px;
-    height: 88.5vh;
-    max-width: 100%;
+    height: 100vh;
+    max-width: 300px;
     border-radius: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     position: sticky;
     top: 20px;
-    /*position: fixed; top: 33px; right: 50px;*/
+    flex: 1 1 200px;
 }
+
 
 .logo {
     padding: 1.5rem;
@@ -49,14 +65,14 @@
     display: block; margin: 0 auto;
 }
 
-.container {
-    margin-top: 15px;
-    padding: 0px;
-    gap: 40px;
+/*Proyectos of aboutMe division*/
+.projectsDescription{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
+    padding: 1rem;
+    gap: 30px;
+    margin-top: -35px;
+    }
 
 .projects{
     text-align: center;
@@ -65,8 +81,8 @@
 .project1{
     background-color: #415A77;
     color: #fff;
-    height: 440px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
@@ -81,8 +97,8 @@
 .project2{
     background-color: #415A77;
     color: #fff;
-    height: 440px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
@@ -97,8 +113,8 @@
 .project3{
     background-color: #415A77;
     color: #fff;
-    height: 440px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
@@ -113,8 +129,8 @@
 .project4{
     background-color: #415A77;
     color: #fff;
-    height: 440px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
@@ -126,20 +142,12 @@
     transform: scale(1.1);
 }
 
-.projectsDescription{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
-    gap: 30px;
-    margin-top: -35px;
-}
-
-
 .language {
     width: 100px;
     height: auto;
 }
 
+/*Skills section*/
 .htmlcss {
     transform: translateY(-50px);
     width: 300px;
@@ -198,11 +206,12 @@
     user-select: none;  
 }
 
+/*Contact information section*/
 .info1 {
     background-color: #27994A;
     text-align: center;
     border-radius: 1.5rem;
-    height: 70px;
+    height: 60px;
     transition-duration: 300ms;
     user-select: none;
 }
@@ -216,7 +225,7 @@
     background-color: #162e4b;
     text-align: center;
     border-radius: 1.5rem;
-    height: 70px;
+    height: 60px;
     transition-duration: 300ms;
     user-select: none;
 }
@@ -230,7 +239,7 @@
     background-color: #fff;
     text-align: center;
     border-radius: 1.5rem;
-    height: 70px;
+    height: 60px;
     transition-duration: 300ms;
     user-select: none;
 }
@@ -245,7 +254,7 @@
     background-color: #fff;
     text-align: center;
     border-radius: 1.5rem;
-    height: 70px;
+    height: 60px;
     transition-duration: 300ms;
     user-select: none;
 }
