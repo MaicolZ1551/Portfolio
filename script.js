@@ -1,3 +1,32 @@
+//link Whatsapp
+function info1(url) {
+  const elements = document.querySelectorAll(".info1");
+  elements.forEach(e => {
+    e.addEventListener("click", () => {
+      window.open(url, "_blank", "noopener");
+    });
+  });
+}
+// Call Link
+info1("https://wa.me/573247787527?text=Hola,%20quiero%20trabajar%20contigo");
+
+
+
+//link Gmail
+function info3(url) {
+  const elements = document.querySelectorAll(".info3");
+  elements.forEach(e => {
+    e.addEventListener("click", () => {
+      window.open(url, "_blank", "noopener");
+    });
+  });
+}
+
+// Call Link
+info3("mailto:maicolzuluagaarias591@gmail.com");
+
+
+
 //link GitHub
 function GitHubLink(url) {
   const elements = document.querySelectorAll(".info2");
@@ -65,3 +94,6 @@ function project3(url) {
 }
 // Call Link
 project3("https://qrmaker741.netlify.app");
+
+
+
