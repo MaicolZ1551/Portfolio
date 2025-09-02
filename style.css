@@ -17,7 +17,7 @@
     padding: 1rem;
     background-color: #1b263b;
     color: white;
-    height: 100vh;
+    height: 90vh;
     max-width: 300px;
     border-radius: 1.5rem;
     align-items: center;
@@ -31,7 +31,7 @@
     padding: 1rem;
     background-color: #1b263b;
     color: white;
-    height: 177vh;
+    height: 130vh;
     border-radius: 1.5rem;
     flex: 2 1 700px;
     max-width: 900px;
@@ -42,7 +42,7 @@
     padding: 1.5rem;
     background-color: #1b263b;
     color: white;
-    height: 100vh;
+    height: 90vh;
     max-width: 300px;
     border-radius: 1.5rem;
     display: flex;
@@ -65,7 +65,7 @@
     display: block; margin: 0 auto;
 }
 
-/*Proyectos of aboutMe division*/
+/*Proyects of aboutMe division*/
 .projectsDescription{
     display: flex;
     flex-wrap: wrap;
@@ -78,90 +78,152 @@
     text-align: center;
 }
 
-.project1{
+.project1 {
     background-color: #415A77;
     color: #fff;
-    height: 300px;
+    height: 370px;
     width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
     max-width: 400px;
     transition-duration: 300ms;
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
 }
 
-.project1:hover{
+.project1:hover {
     transform: scale(1.1);
 }
+
+.digitalClockGitLink {
+    height: 65px;
+    width: 200px;
+    border-radius: 1rem;
+    background-color: #0d1b2a;
+    transition-duration: 300ms;
+    text-align: center;
+    justify-content: center;
+}
+
+.digitalClockGitLink:hover {
+    transform: scale(1.1);
+}
+
 
 .project2{
     background-color: #415A77;
     color: #fff;
-    height: 300px;
+    height: 370px;
     width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
     max-width: 400px;
     transition-duration: 300ms;
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
 }
 
 .project2:hover{
     transform: scale(1.1);
 }
 
+.digitalCalculatorGitLink {
+    height: 65px;
+    width: 200px;
+    border-radius: 1rem;
+    background-color: #0d1b2a;
+    transition-duration: 300ms;
+    text-align: center;
+    justify-content: center;
+}
+
+.digitalCalculatorGitLink:hover {
+    transform: scale(1.1);
+}
+
+
 .project3{
     background-color: #415A77;
     color: #fff;
-    height: 300px;
+    height: 370px;
     width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
     max-width: 400px;
     transition-duration: 300ms;
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
 }
 
 .project3:hover{
     transform: scale(1.1);
 }
 
+.digitalQRMakerGitLink {
+    height: 65px;
+    width: 200px;
+    border-radius: 1rem;
+    background-color: #0d1b2a;
+    transition-duration: 300ms;
+    text-align: center;
+    justify-content: center;
+}
+
+.digitalQRMakerGitLink:hover {
+    transform: scale(1.1);
+}
+
+
 .project4{
     background-color: #415A77;
     color: #fff;
-    height: 300px;
+    height: 370px;
     width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
     max-width: 400px;
     transition-duration: 300ms;
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
 }
 
 .project4:hover{
     transform: scale(1.1);
 }
 
+
 .project5{
     background-color: #415A77;
     color: #fff;
-    height: 300px;
+    height: 370px;
     width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
     flex-basis: 200;
     max-width: 400px;
     transition-duration: 300ms;
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
 }
 
 .project5:hover{
     transform: scale(1.1);
 }
 
+
 .project6{
     background-color: #415A77;
     color: #fff;
-    height: 300px;
+    height: 370px;
     width: 200px;
     border-radius: 1.2rem;
     flex-grow: 1;
@@ -296,6 +358,10 @@
     cursor: pointer;
 }
 
+a {
+    text-decoration: underline none;
+}
+
 h1 {
     transform: translateY(20px);
     text-align: center;
@@ -324,15 +390,14 @@ h4 {
 
 h5{
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
     font-family: sans-serif;
     max-width: 700px;
-    text-align: justify;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 b {

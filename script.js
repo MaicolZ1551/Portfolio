@@ -67,6 +67,18 @@ function project1(url) {
 // Call Link
 project1("https://digital-clock741.netlify.app");
 
+//link GitHub digital clock
+function digitalClockGitLink(url) {
+  const elements = document.querySelectorAll(".digitalClockGitLink");
+  elements.forEach(e => {
+    e.addEventListener("click", () => {
+      window.open(url, "_blank", "noopener");
+    });
+  });
+}
+// Call Link
+digitalClockGitLink("https://github.com/MaicolZ1551/Digital-Clock");
+
 
 
 //link calculator
@@ -81,9 +93,21 @@ function project2(url) {
 // Call Link
 project2("https://redcalculator741.netlify.app");
 
+//link GitHub digital calculator
+function digitalCalculatorGitLink(url) {
+  const elements = document.querySelectorAll(".digitalCalculatorGitLink");
+  elements.forEach(e => {
+    e.addEventListener("click", () => {
+      window.open(url, "_blank", "noopener");
+    });
+  });
+}
+// Call Link
+digitalCalculatorGitLink("https://github.com/MaicolZ1551/Red-Calculator-HTML-CSS-JAVASCRIPT");
 
 
-//link calculator
+
+//link QRMaker
 function project3(url) {
   const elements = document.querySelectorAll(".project3");
   elements.forEach(e => {
@@ -95,5 +119,15 @@ function project3(url) {
 // Call Link
 project3("https://qrmaker741.netlify.app");
 
-
+//link GitHub QRMaker
+function digitalQRMakerGitLink(url) {
+  const elements = document.querySelectorAll(".digitalQRMakerGitLink");
+  elements.forEach(e => {
+    e.addEventListener("click", () => {
+      window.open(url, "_blank", "noopener");
+    });
+  });
+}
+// Call Link
+digitalQRMakerGitLink("https://github.com/MaicolZ1551/QR-Maker");
 
