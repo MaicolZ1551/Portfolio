@@ -290,9 +290,19 @@
     user-select: none;
 }
 
+.swift{
+    transform: translateY(-50px);
+    width: 67px;
+    padding: 1rem;
+    height: auto;
+    background-color: #0d1b2a;
+    border-radius: 1.5rem;
+    user-select: none;
+}
+
 .github {
     transform: translateY(-50px);
-    width: 60px;
+    width: 65px;
     padding: 1rem;
     height: auto;
     background-color: #0d1b2a;
