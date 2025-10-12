@@ -1,116 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">=
+    <title>Maicol Zuluaga - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <div class="container">
 
-        <div class="contact" data-aos="fade-up">
+        <div class="contact" id="contact" data-aos="fade-up">
             
             <!-- Profile photo -->
-            <img src="images/logo3.webp" alt="logo" class="logo" style="user-select: none;">
+            <img src="images/logo3.webp" alt="Maicol Zuluaga" class="logo">
             <br>
             <h1>Maicol Zuluaga</h1>
+            <p class="title-text">Desarrollador Frontend</p>
 
-            <hr style="transform: translateY(20px)">
-            <h4>Contact</h4>
+            <hr>
+            <h4>Contacto</h4>
             
-            <div class="info1">
-                <img src="images/Contact/cellphone.png" alt="cellphone" style="height: 50px; width: 100px; transform: translateY(5px);">
-            </div>
-            <br>
-            <div class="info2">
-                <img src="images/Contact/GitHub2.png" alt="GitHub2" style="height: 50px; width: 100px; transform: translateY(5px);">
-            </div>
-            <br>
-            <div class="info3">
-                <img src="images/Contact/gmail.avif" alt="gmail" style="height: 50px; width: 100px; transform: translateY(5px);">
-            </div>
-            <br>
-            <div class="info4">
-                <img src="images/Contact/LinkedIn.png" alt="LinkedIn" style="height: 20px; width: 110px; transform: translateY(17px);">
+            <div class="contact-info">
+                <div class="info-item info1" data-tooltip="+57 324 778 7527">
+                    <i class="fas fa-phone"></i>
+                    <span>+57 324 778 7527</span>
+                </div>
+                
+                <div class="info-item info2" data-tooltip="Ver perfil en GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                
+                <div class="info-item info3" data-tooltip="maicolzuluagaarias591@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </div>
+                
+                <div class="info-item info4" data-tooltip="Ver perfil en LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </div>
             </div>
         </div>
 
-        <div class="aboutMe" data-aos="flip-left">
+        <div class="aboutMe" id="about" data-aos="flip-left">
             <div>
                 <!-- ABOUT ME -->
-                <h3 class="title">About Me</h3>
+                <h3 class="title">Sobre Mí</h3>
                 <p>
-                    I am a <span>frontend</span> developer with experience in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>C#</span>. I easily adapt to different environments and challenges, and I always give 100% in every project. I have worked in small teams and have also led my own projects, such as a 2D platform video game that I fully designed and programmed. I am motivated by learning, solving problems, and being a key part of the team.
+                    Soy un desarrollador <span>frontend</span> con experiencia en <span>Swift</span>, <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, y <span>C#</span>. Me adapto fácilmente a diferentes entornos y desafíos, y siempre doy el 100% en cada proyecto. He trabajado en equipos pequeños y también he liderado mis propios proyectos, como un videojuego de plataformas 2D que diseñé y programé completamente. Me motiva el aprendizaje, resolver problemas y ser una parte clave del equipo.
                 </p>
                 <br>
                 <hr>
             </div>
 
-            <div class="projects">
+            <div class="projects" id="projects">
                 <!-- Projects -->
-                <h3 style="transform: translateX(-10px);">Projects</h3>
-                <br>
-                <br>
+                <h3>Proyectos</h3>
                 <div class="projectsDescription">
+                    <div class="project-card project0" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="images/projects/IMCSwift.jpeg" alt="IMC Calculator">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>IMC Calculator</h5>
+                            <p>Calculadora de Índice de Masa Corporal desarrollada en <span>Swift</span> para iOS. Incluye validación de datos y cálculos precisos.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Swift</span>
+                                <span class="tech-tag">iOS</span>
+                                <span class="tech-tag">UIKit</span>
+                            </div>
+                            <div class="project-links">
+                                <div class="IMCCalculatorLink">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <div class="project1">
-                        <img src="images/projects/DigitalClock.webp" alt="DigitalClock" style="height: 150px; width: 400px; border-radius: 1.2rem; max-width: 100%;">
-                        <h5 style="font-size: 25px; margin-top: 10px; text-align: center;">DigitalClock</h5>
-                        <p style="margin-right: 15px; justify-content: center; margin-top: -35px;">A simple digital clock made with <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span></p>
-                        <div class="digitalClockGitLink">
-                            <h2>GitHub Page</h2>
+                    <div class="project-card project1" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="images/projects/DigitalClock.webp" alt="Digital Clock">
+                            <div class="project-overlay">
+                                <a href="https://digital-clock741.netlify.app" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Reloj Digital</h5>
+                            <p>Reloj digital interactivo con diseño moderno y animaciones suaves. Muestra hora, fecha y incluye modo oscuro.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <div class="digitalClockGitLink">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
     
-                    <div class="project2">
-                        <img src="images/projects/calculator.webp" alt="calculator" style="height: 150px; width: 400px; border-radius: 1.2rem; max-width: 100%;">
-                        <h5 style="font-size: 25px; margin-top: 10px; text-align: center;">DigitalCalculator</h5>
-                        <p style="margin-right: 15px; justify-content: center; margin-top: -35px;">Simple calculator made with <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span></p>
-                        <div class="digitalCalculatorGitLink">
-                            <h2>GitHub Page</h2>
+                    <div class="project-card project2" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <img src="images/projects/calculator.webp" alt="Calculator">
+                            <div class="project-overlay">
+                                <a href="https://redcalculator741.netlify.app" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Calculadora Digital</h5>
+                            <p>Calculadora web con interfaz intuitiva y funcionalidades avanzadas. Soporte para operaciones básicas y científicas.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <div class="digitalCalculatorGitLink">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="project3">
-                        <img src="images/projects/QRMaker.webp" alt="calculator" style="height: 150px; width: 400px; border-radius: 1.2rem; max-width: 100%;">
-                        <h5 style="font-size: 25px; margin-top: 10px; text-align: center;">QRMaker</h5>
-                        <p style="margin-right: 15px; justify-content: center; margin-top: -35px;">A QR code maker made with <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span></p>
-                        <div class="digitalQRMakerGitLink">
-                            <h2>GitHub Page</h2>
+                    <div class="project-card project3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-image">
+                            <img src="images/projects/QRMaker.webp" alt="QR Maker">
+                            <div class="project-overlay">
+                                <a href="https://qrmaker741.netlify.app" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="project4">
-    
-                    </div>
-
-                    <div class="project5">
-    
-                    </div>
-
-                    <div class="project6">
-    
+                        <div class="project-content">
+                            <h5>QR Maker</h5>
+                            <p>Generador de códigos QR con múltiples opciones de personalización. Permite crear QR para URLs, texto y contactos.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <div class="digitalQRMakerGitLink">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="skills" data-aos="fade-down">
+        <div class="skills" id="skills" data-aos="fade-down">
             <div>
-                <h3 style="transform: translateX(90px);">Skills</h3>
-                <br>
-                <br>
-                <img src="images/Technologies/HTML-CSS.png" alt="HTML, CSS" class="htmlcss">
-                <img src="images/Technologies/javascript.webp" alt="JS" class="js">
-                <img src="images/Technologies/Logo_C_sharp.png" alt="CSharp" class="csharp">
-                <img src="images/Technologies/Git.webp" alt="git" class="git">
-                <img src="images/Technologies/unityLog.png" alt="Unity" class="unity">
-                <img src="images/Technologies/GitHub.png" alt="GitHub" class="github">
-                <img src="images/Technologies/swift.png" alt="Swift" class="swift">
+                <h3>Habilidades</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/Technologies/HTML-CSS.png" alt="HTML, CSS" class="skill-img">
+                        <span class="skill-name">HTML & CSS</span>
+                    </div>
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="images/Technologies/javascript.webp" alt="JavaScript" class="skill-img">
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="images/Technologies/Logo_C_sharp.png" alt="C#" class="skill-img">
+                        <span class="skill-name">C#</span>
+                    </div>
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="images/Technologies/swift.png" alt="Swift" class="skill-img">
+                        <span class="skill-name">Swift</span>
+                    </div>
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="images/Technologies/unityLog.png" alt="Unity" class="skill-img">
+                        <span class="skill-name">Unity</span>
+                    </div>
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="images/Technologies/Git.webp" alt="Git" class="skill-img">
+                        <span class="skill-name">Git</span>
+                    </div>
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="700">
+                        <img src="images/Technologies/GitHub.png" alt="GitHub" class="skill-img">
+                        <span class="skill-name">GitHub</span>
+                    </div>
+                </div>
             </div>
         </div>
         
